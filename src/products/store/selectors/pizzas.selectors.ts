@@ -46,12 +46,12 @@ export const getAllPizzas = createSelector(
   }
 )
 
-export const getAllLoaded = createSelector(
+export const getPizzasLoaded = createSelector(
   getPizzasState,
   fromPizzas.getPizzasLoaded
 )
 
-export const getAllPizzasLoading = createSelector(
+export const getPizzasLoading = createSelector(
   getPizzasState,
   fromPizzas.getPizzasLoading
 )
