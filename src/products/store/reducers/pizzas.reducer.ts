@@ -4,7 +4,7 @@ import { Pizza } from '../../models/pizza.model'
 
 export interface PizzasState {
   // data: Pizza[]
-  entities: { [id : number] : Pizza},
+  entities: { [id : number] : Pizza },
   loaded: boolean
   loading: boolean
 }
